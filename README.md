@@ -1,2 +1,2 @@
 # sprint-retro-board
-Sprint Retrospective board built with in JavaScript
+Sprint Retrospective board built using JavaScript
