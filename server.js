@@ -2,7 +2,13 @@ const express = require('express');
 const bodyParser = require('body-parser')
 const path = require('path');
 const app = express();
+var logger = require("morgan");
+
+app.use(logger('combined'));
+
 app.use(express.static(path.join(__dirname, 'build')));
+
+
 
 app.get('/health', function (req, res) {
  return res.send('up');
