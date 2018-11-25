@@ -1,0 +1,19 @@
+{
+  "name": "storm-breaker-server",
+  "version": "0.0.1",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.3",
+    "morgan": "^1.9.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Anith Ashok",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  }
+}
