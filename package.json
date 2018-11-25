@@ -8,7 +8,8 @@
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-scripts": "1.1.4",
-    "@material-ui/core":"3.0.3"
+    "@material-ui/core":"3.0.3",
+    "@material-ui/icons":"3.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
