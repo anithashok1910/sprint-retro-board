@@ -27,7 +27,7 @@ const Navbar = (props) =>{
         <AppBar position="static" color="default" className={classes.appBar}>
             <Toolbar>
                 <Typography variant="title" color="inherit" noWrap className={classes.toolbarTitle}>
-                    <b>SkunkWorkz</b>
+                    <b>Storm breaker</b>
                 </Typography>
             </Toolbar>
         </AppBar>
