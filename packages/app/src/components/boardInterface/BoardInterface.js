@@ -8,8 +8,7 @@ import Card from '@material-ui/core/Card';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import CardHeader from '@material-ui/core/CardHeader';
-import TextField from '@material-ui/core/TextField';
-import AccountCircle from '@material-ui/icons/AccountCircle';
+import { Link } from 'react-router-dom';
 
 
 //https://github.com/mui-org/material-ui/blob/master/docs/src/pages/page-layout-examples/pricing/Pricing.js
@@ -91,9 +90,11 @@ const BoardInterface = props =>{
                                             </Typography>
                                     </CardContent>
                                     <CardActions className={classes.cardActions}>
-                                        <Button  fullWidth variant="contained" color="primary">
-                                            Join now
-                                        </Button>
+                                        <Link to='/signin'>
+                                            <Button  fullWidth variant="contained" color="primary">
+                                                Join now
+                                            </Button>
+                                        </Link>
                                     </CardActions>
                                 </Card>
                             </Grid>
@@ -121,9 +122,11 @@ const BoardInterface = props =>{
                                         </Typography>
                                     </CardContent>
                                     <CardActions className={classes.cardActions}>
-                                        <Button  fullWidth variant="contained" color="primary">
-                                            Get Started
-                                        </Button>
+                                        <Link to='/signin'>
+                                            <Button  fullWidth variant="contained" color="primary">
+                                                Get Started
+                                            </Button>
+                                        </Link>
                                     </CardActions>
                                 </Card>
                             </Grid>
