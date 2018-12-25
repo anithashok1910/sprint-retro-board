@@ -1,0 +1,14 @@
+.join-board-card{
+    width: 230px;
+    height: 270px;
+    padding-top:15px;
+    padding-bottom:15px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+
+    .join-board-button{
+        margin-top: 100px;
+    }
+}
