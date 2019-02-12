@@ -16,14 +16,14 @@ class App extends Component {
           <Layout className="layout">
             <NavBar />
             <Content
-              style={{ padding: '0 50px', margin: '16px 0', height: '78vh' }}
+            style={{ padding: '50px 20px 50px', height: '78vh',backgroundImage: 'linear-gradient(to bottom right, #002f4b, #dc4225)',opacity: '.8' }}
             >
               <div style={{ background: '#fff', padding: 24, minHeight: 280 }}>
                 <Routes />
               </div>
             </Content>
             <Footer style={{ textAlign: 'center' }}>
-              React Project Starter Pack
+              Golden Maze
             </Footer>
           </Layout>
         </BrowserRouter>
