@@ -7,11 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "bootstrap": "lerna bootstrap",
     "build-app": "lerna run build --scope=storm-breaker-app",
-    "start-app":"lerna run start --scope=storm-breaker-app",
+    "start-app": "lerna run start --scope=storm-breaker-app",
     "copy-app-build": "ncp packages/app/build packages/server/node_modules/storm-breaker-app",
-    "build-server":"npm run build-app && npm run copy-app-build",
-    "start-server":"lerna run start --scope=storm-breaker-server",
-    "start-server:dev":"lerna run start:dev --scope=storm-breaker-server"
+    "build-server": "npm run build-app && npm run copy-app-build",
+    "start-server": "lerna run start --scope=storm-breaker-server",
+    "start-server:dev": "lerna run start:dev --scope=storm-breaker-server"
   },
   "devDependencies": {
     "lerna": "^3.4.3",

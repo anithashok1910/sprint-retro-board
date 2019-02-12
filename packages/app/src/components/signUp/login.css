@@ -1,0 +1,13 @@
+.user-login .login-form {
+  max-width: 300px;
+}
+.user-login .login-form-forgot {
+  float: right;
+}
+.user-login .login-form-button {
+  width: 100%;
+}
+
+.existing-user-login-button {
+  float: right;
+}
